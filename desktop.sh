@@ -1,6 +1,5 @@
 mount -o remount,size=5G /run/archiso/cowspace
 
-pacman -Syy plasma-desktop glibc konsole xorg gpgme gpgmepp
-pacman -Scc
+pacman -Syy plasma-desktop glibc firefox konsole xorg gpgme gpgmepp
 
 startplasma-wayland
