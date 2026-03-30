@@ -1,5 +1,6 @@
 mount -o remount,size=8G /run/archiso/cowspace
-
-pacman -Syy plasma-desktop glibc firefox konsole xorg gpgme gpgmepp
+#pacman -S --overwrite '*' lua54
+pacman -Rdd lua
+pacman -Sy plasma-desktop glibc firefox konsole xorg gpgme gpgmepp
 
 startplasma-wayland
